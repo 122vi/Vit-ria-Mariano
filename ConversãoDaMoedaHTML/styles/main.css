@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/dolar.jpg);
+    align-items: center;
+    margin: 200px;
+ }
+ section{
+     background-color:rgb(20, 124, 67);
+     width: 88%;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+ main{
+     text-align: center;
+     background-color: rgb(55, 143, 77);
+     width: 50%;
+     box-shadow:20px 20px 10px rgb(24, 26, 37);
+     border-radius: 15px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     display: flex;
+ }

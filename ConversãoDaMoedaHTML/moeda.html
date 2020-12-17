@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão da Moeda</title>
+    <script src="./moeda.js"></script>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <main>
+        <section>
+            <form>
+                <div id="div1">
+                    <h1>Conversão de real para outras moedas</h1>
+                    
+                    <!--ENTRADA DO VALOR A SER CONVERTIDO-->
+                    <div id="div3">
+                        <b><label>Valor a ser convertido:</label></b><br />		
+                        <input type="text" id="text2" />
+                    </div>
+                    <!--OPÇÕES DE MOEDAS PARA CONVERTER-->
+                    <div id="div2">
+                        <b><label id="text1">Converter para: </label></b><br />
+                        <select id="opções">
+                            <option></option>
+                            <option value="US$">Dólar Americano</option>
+                            <option value="C$">Dólar Canadense</option>
+                            <option value="A$">Dólar Australiano</option>						
+                        </select><br />
+                    </div>
+                    
+                    <!--botões CONVERTER E RESETAR-->
+                    <input type="button" value="Converter" id="btn1" onClick="conversaoMoeda()"/>
+                    <input type="reset" value="Limpar" id="btn2">
+                    
+                    <!--RESULTADO QUE SERÁ MOSTRADO NA TELA-->
+                    <div id="div4">
+                        <b><label id="resultado">Resultado:</label><br/></b>
+                        <span id="valorFinal"></span>
+                    </div><br/>
+            </form>
+        </section>
+    </main>    
+</body>
+</html>
