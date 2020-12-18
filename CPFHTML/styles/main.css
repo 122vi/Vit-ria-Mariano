@@ -1,0 +1,29 @@
+body{
+   display: flex;
+   justify-content: center;
+    background-image: url(../img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 95%;
+    background-color: rgb(58, 139, 206);
+    align-items: center;
+    margin: 200px;
+}
+section{
+    background-color: rgb(35, 110, 196);
+    width: 88%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main{
+    text-align: center;
+    background-color: rgb(35, 72, 150);
+    width: 50%;
+    box-shadow:20px 20px 10px rgb(9, 25, 114);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
